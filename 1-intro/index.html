@@ -4,15 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GSAP 101</title>
-    <script
-      type="application/javascript"
-      src="./gsap.min.js"
-      defer
-    ></script>
+    <script type="application/javascript" src="./gsap.min.js" defer></script>
     <script src="./index.js" defer></script>
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <h1>GSAP 101</h1>
+    <div class="container h-100 bg-primary">
+      <header class="header" id="header">
+        <ul>
+          <li class="links">Home</li>
+          <li class="links">Projects</li>
+          <li class="links">About</li>
+        </ul>
+      </header>
+
+      <main class="bg-light h-100">
+        <div class="main-content">
+          <div>
+            <h1>Title of content</h1>
+          </div>
+        </div>
+
+        <section class="sidebar-right" id="rightSidebar">
+          <h4 class="heading">Articles:</h4>
+          <ul>
+            <li class="right-sidebar-links">How to Eat?</li>
+            <li class="right-sidebar-links">How to Drink?</li>
+            <li class="right-sidebar-links">How to Work?</li>
+            <li class="right-sidebar-links">How to Sleep?</li>
+          </ul>
+        </section>
+      </main>
+      <footer id="footer">The Footer</footer>
+    </div>
   </body>
 </html>
