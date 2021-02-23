@@ -1,0 +1,84 @@
+/* set-up */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* utility */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  flex-grow: 1;
+  padding: 0px;
+
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  height: auto;
+  padding: 16px;
+  background-color: maroon;
+  color: aliceblue;
+}
+.header ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.header ul li {
+  font-size: 18px;
+  margin: auto 8px;
+  font-weight: 900;
+}
+main {
+  height: 100%;
+  display: flex;
+}
+.main-content {
+  width: 100%;
+  background-color: antiquewhite;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar-right {
+  background: rgb(29, 9, 145);
+  color: aliceblue;
+  height: 100%;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+.sidebar-right h4.heading {
+  align-self: flex-start;
+}
+.sidebar-right ul {
+  list-style: none;
+}
+.sidebar-right ul .right-sidebar-links {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 8px auto;
+}
+footer {
+  background-color: maroon;
+  color: aliceblue;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
