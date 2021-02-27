@@ -73,6 +73,20 @@ main {
   font-weight: 600;
   margin: 8px auto;
 }
+button.btn-animate {
+  padding: 16px;
+  background-color: maroon;
+  color: aliceblue;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+button.btn-cleanup {
+  padding: 16px;
+  background-color: aliceblue;
+  color: rgb(58, 59, 59);
+  font-weight: 700;
+  text-transform: uppercase;
+}
 footer {
   background-color: maroon;
   color: aliceblue;
